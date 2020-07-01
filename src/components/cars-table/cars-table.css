@@ -1,0 +1,80 @@
+.cars-table-header {
+    background-color: #e4e4e4;;
+}
+
+.cars-table-th {
+    padding: 7px 12px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: left;
+    color: #3a3a3a;
+}
+
+.cars-table-td {
+    padding: 7px 12px;
+}
+
+.paginated-panel {
+    border-top: 1px solid #e4e4e4;
+    padding-top: 12px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-delete {
+    background-color: #ff4a4a;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.btn-delete:hover {
+    background-color: #ff6664;
+}
+
+.btn-edit {
+    background-color: #ffac00;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-edit:hover {
+    background-color: #ffc240;
+}
+
+.btn-add {
+    background-color: #5953d8;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.btn-add:hover {
+    background-color: #6963ff;
+}
+
+.btn-paginate {
+    background-color: white;
+    border: none;
+    padding: 7px 12px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn-paginate:hover {
+    background-color: #e2e2e2;
+}

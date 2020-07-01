@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    width: 70px;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 12px;
+}
+
+.error-label {
+    font-size: 12px;
+    color: #ff6664;
+    margin-top: 5px;
+}
+
+.btn-submit {
+    width: 225px;
+    background-color: #5953d8;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.btn-submit:hover {
+    background-color: #6963ff;
+}
+.btn-submit:disabled {
+    background-color: #bbc3ff;
+}
+
+.alert {
+    background-color: #ff6664;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
